@@ -265,3 +265,21 @@ footer{
 #box-p{
 	text-align: left;
 }
+
+.end{
+	display: flex;
+	justify-content: space-around;
+}
+
+ul{
+list-style-type: circle;
+margin-left: 20px;
+line-height: 1.5;
+}
+.end-div{
+	margin-top: 20px;
+	width: 30%;
+}
+#service-footer{
+	margin-top: 30px;
+}
