@@ -237,15 +237,31 @@ footer{
 .boxes {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	align-content: space-around;
-	
+	justify-content: space-evenly;
+	align-content: space-between;
+	border-bottom: solid 6px black;
 }
 
 .child-box{
-	width: 40%;
-	height: 20%;
-	border: solid red 2px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	width: 35%;
+	height: 50%;
+	border: solid black 2px;
+	background-color:lightgrey;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+#box-header{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#box-button{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 7px;
+}
+
+#box-p{
+	text-align: left;
 }
